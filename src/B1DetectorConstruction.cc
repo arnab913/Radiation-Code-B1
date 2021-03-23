@@ -40,6 +40,13 @@
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4SystemOfUnits.hh"
+#include "G4Isotope.hh"
+#include "G4Element.hh"
+#include "G4Material.hh"
+#include "G4UnitsTable.hh"
+#include "globals.hh"
+#include "G4NistManager.hh"
+
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -149,7 +156,26 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
   //  */   
   // Shape 2
   //
-  G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_CONCRETE");//G4_CONCRETE
+   //*edit start
+
+   // define a material from elements and/or others materials (mixture of mixtures)
+    G4double a, z, density;
+    G4String name, symbol;
+    G4int ncomponents;
+    G4double  fractionmass;
+    a = 10.81*g/mole;
+    G4Element* elB = new G4Element(name="Boron",symbol="B" , z= 5., a);
+    G4NistManager* manager = G4NistManager::Instance();
+    manager->SetVerbose(1);
+    G4Material* mat = manager->FindOrBuildMaterial("G4_CONCRETE");
+density = 2.4*g/cm3;
+G4Material* shape2_mat = new G4Material(name="Composite", density, ncomponents=2);
+shape2_mat->AddMaterial(mat, fractionmass=5.0*perCent);
+shape2_mat->AddElement(elB,  fractionmass=95.0*perCent);
+
+
+   //edit end */
+ // G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_CONCRETE");//G4_CONCRETE
   G4ThreeVector pos2 = G4ThreeVector(0, 0, 0*m);
 
 

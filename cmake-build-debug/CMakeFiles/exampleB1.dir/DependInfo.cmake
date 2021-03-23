@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/exampleB1.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/exampleB1.cc.o"
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/src/B1ActionInitialization.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/src/B1DetectorConstruction.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/src/B1EventAction.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/src/B1PrimaryGeneratorAction.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/src/B1RunAction.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
-  "/home/anamika/Cyclotron/g4_examples/B1_edit/src/B1SteppingAction.cc" "/home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/exampleB1.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/exampleB1.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/src/B1ActionInitialization.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/src/B1DetectorConstruction.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/src/B1EventAction.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/src/B1PrimaryGeneratorAction.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/src/B1RunAction.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
+  "/home/anamika/Cyclotron/g4_examples/root_B1/src/B1SteppingAction.cc" "/home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

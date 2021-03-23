@@ -63,10 +63,10 @@ RM = /home/anamika/Clion/CLion-2020.3.2/clion-2020.3.2/bin/cmake/linux/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anamika/Cyclotron/g4_examples/B1_edit
+CMAKE_SOURCE_DIR = /home/anamika/Cyclotron/g4_examples/root_B1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug
 
 # Utility rule file for B1.
 
@@ -91,6 +91,6 @@ CMakeFiles/B1.dir/clean:
 .PHONY : CMakeFiles/B1.dir/clean
 
 CMakeFiles/B1.dir/depend:
-	cd /home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anamika/Cyclotron/g4_examples/B1_edit /home/anamika/Cyclotron/g4_examples/B1_edit /home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug /home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug /home/anamika/Cyclotron/g4_examples/B1_edit/cmake-build-debug/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anamika/Cyclotron/g4_examples/root_B1 /home/anamika/Cyclotron/g4_examples/root_B1 /home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug /home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug /home/anamika/Cyclotron/g4_examples/root_B1/cmake-build-debug/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/B1.dir/depend
 

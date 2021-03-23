@@ -32,7 +32,12 @@
 
 #include "G4VUserDetectorConstruction.hh"
 #include "globals.hh"
-
+#include "G4Isotope.hh"
+#include "G4Element.hh"
+#include "G4Material.hh"
+#include "G4UnitsTable.hh"
+#include "globals.hh"
+#include "G4NistManager.hh"
 class G4VPhysicalVolume;
 class G4LogicalVolume;
 
