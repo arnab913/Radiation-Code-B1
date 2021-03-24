@@ -123,55 +123,28 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
                     0,                       //copy number
                     checkOverlaps);          //overlaps checking
  
-  //     
-  /*// Shape 1
-  //  
-  G4Material* shape1_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
-  G4ThreeVector pos1 = G4ThreeVector(0, 2*cm, -7*cm);
-        
-  // Conical section shape       
-  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 2.*cm;
-  G4double shape1_rminb =  0.*cm, shape1_rmaxb = 4.*cm;
-  G4double shape1_hz = 3.*cm;
-  G4double shape1_phimin = 0.*deg, shape1_phimax = 360.*deg;
-  G4Cons* solidShape1 =    
-    new G4Cons("Shape1", 
-    shape1_rmina, shape1_rmaxa, shape1_rminb, shape1_rmaxb, shape1_hz,
-    shape1_phimin, shape1_phimax);
-                      
-  G4LogicalVolume* logicShape1 =                         
-    new G4LogicalVolume(solidShape1,         //its solid
-                        shape1_mat,          //its material
-                        "Shape1");           //its name
-               
-  new G4PVPlacement(0,                       //no rotation
-                    pos1,                    //at position
-                    logicShape1,             //its logical volume
-                    "Shape1",                //its name
-                    logicEnv,                //its mother  volume
-                    false,                   //no boolean operation
-                    0,                       //copy number
-                    checkOverlaps);          //overlaps checking
 
-  //  */   
   // Shape 2
   //
    //*edit start
 
    // define a material from elements and/or others materials (mixture of mixtures)
+
     G4double a, z, density;
     G4String name, symbol;
     G4int ncomponents;
     G4double  fractionmass;
     a = 10.81*g/mole;
     G4Element* elB = new G4Element(name="Boron",symbol="B" , z= 5., a);
+
     G4NistManager* manager = G4NistManager::Instance();
     manager->SetVerbose(1);
     G4Material* mat = manager->FindOrBuildMaterial("G4_CONCRETE");
 density = 2.4*g/cm3;
 G4Material* shape2_mat = new G4Material(name="Composite", density, ncomponents=2);
-shape2_mat->AddMaterial(mat, fractionmass=5.0*perCent);
-shape2_mat->AddElement(elB,  fractionmass=95.0*perCent);
+shape2_mat->AddMaterial(mat, fractionmass=95.0*perCent);
+shape2_mat->AddElement(elB,  fractionmass=5.0*perCent);
+
 
 
    //edit end */
@@ -179,9 +152,9 @@ shape2_mat->AddElement(elB,  fractionmass=95.0*perCent);
   G4ThreeVector pos2 = G4ThreeVector(0, 0, 0*m);
 
 
-  G4double shape2_dxa = 15.22*m;
-  G4double shape2_dya = 9.74*m;
-  G4double shape2_dz  = 11.28*m;
+  G4double shape2_dxa = 10.0*m;
+  G4double shape2_dya = 10.0*m;
+  G4double shape2_dz  = 10.0*m;
   G4Box *outerBox = new G4Box("Outer Box",shape2_dxa,shape2_dya,shape2_dz);
 G4Box *innerBox = new G4Box("Inner Box",(shape2_dxa-2.44*m),(shape2_dya-2.44*m),(shape2_dz-2.44*m));
 G4SubtractionSolid *solidShape2 = new G4SubtractionSolid("Hollow Box",outerBox,innerBox);

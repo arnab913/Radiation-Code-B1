@@ -68,7 +68,7 @@ B1RunAction::B1RunAction()
   // Book histograms, ntuple
   //
   // Creating histograms
-  analysisManager->CreateH1("Energy","Edep in Concrete", 100, 0., 16.5*MeV);
+  analysisManager->CreateH1("Energy","Edep in Concrete", 100, 0., 20*MeV);
   analysisManager->CreateH1("Tlen","Track length", 100, 0., 100*mm);
 //edit end
 

@@ -52,6 +52,7 @@ class B1EventAction : public G4UserEventAction
   private:
     B1RunAction* fRunAction;
     G4double     fEdep;
+   // G4double fTrackLength;      //edit
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
