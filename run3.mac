@@ -6,12 +6,15 @@
 /score/mesh/translate/xyz 0. 0. 0. m
 /score/mesh/nBin 50 50 50
 #
-/score/quantity/nOfStep nOfStepGamma
-/score/filter/particle gammaFilter gamma
+#/score/quantity/nOfStep nOfStepGamma
+#/score/quantity/energyDeposit eDep 
+/score/quantity/doseDeposit dose 
+#/score/filter/particle gammaFilter gamma
 #
 /score/close
 #
 ########################################
+
 
 ########################################
 
@@ -20,11 +23,25 @@
 /score/list
 #
 /vis/disable
-/run/beamOn 1000
+/gun/particle neutron
+/gun/energy 18.5 MeV
+/run/beamOn 100
 /vis/enable
 #
 ########################################
 #
-
-/score/drawProjection boxMesh_2a nOfStepGamma
+/analysis/setFileName neutron.root
+/analysis/h1/set 1 100 0.  1. mm	#edep profile
 #
+
+/score/drawProjection boxMesh_2a dose
+#/score/drawProjection boxMesh_2a eDep
+#
+########################################
+# Dump scores to a file
+
+/score/dumpQuantityToFile boxMesh_2a dose dose.txt
+
+#
+########################################
+#/score/drawColumn boxMesh_2a dose 1 0
