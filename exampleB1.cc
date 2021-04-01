@@ -35,7 +35,7 @@
 #else
 #include "G4RunManager.hh"
 #endif
-
+#include "G4ScoringManager.hh" //edit
 #include "G4UImanager.hh"
 #include "QBBC.hh"
 
@@ -64,6 +64,11 @@ int main(int argc,char** argv)
   G4MTRunManager* runManager = new G4MTRunManager;
 #else
   G4RunManager* runManager = new G4RunManager;
+    //edit
+
+    // Activate command-based scorer
+    G4ScoringManager::GetScoringManager();
+    //edit end
 #endif
 
   // Set mandatory initialization classes
@@ -78,7 +83,7 @@ int main(int argc,char** argv)
     
   // User action initialization
   runManager->SetUserInitialization(new B1ActionInitialization());
-  
+
   // Initialize visualization
   //
   G4VisManager* visManager = new G4VisExecutive;

@@ -1,22 +1,30 @@
-# Macro file for example B1
+# ########################################
 #
-# Can be run in batch, without graphic
-# or interactively: Idle> /control/execute run1.mac
+/score/create/boxMesh boxMesh_2a
 #
-# Change the default number of workers (in multi-threading mode)
-#/run/numberOfThreads 4
+/score/mesh/boxSize 10. 10. 10. m
+/score/mesh/translate/xyz 0. 0. 0. m
+/score/mesh/nBin 50 50 50
 #
-# Initialize kernel
-/run/initialize
+/score/quantity/nOfStep nOfStepGamma
+/score/filter/particle gammaFilter gamma
 #
-/control/verbose 2
-/run/verbose 2
-/event/verbose 0
-/tracking/verbose 1
+/score/close
 #
-# gamma 15 MeV to the direction (0.,0.,1.)
+########################################
+
+########################################
+
+########################################
 #
-/gun/particle gamma
-/gun/energy 15 MeV
+/score/list
 #
-/run/beamOn 500
+/vis/disable
+/run/beamOn 1000
+/vis/enable
+#
+########################################
+#
+
+/score/drawProjection boxMesh_2a nOfStepGamma
+#

@@ -126,7 +126,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
   // Shape 2
   //
-   //*edit start
+  // /*edit start
 
    // define a material from elements and/or others materials (mixture of mixtures)
 
@@ -135,20 +135,23 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
     G4int ncomponents;
     G4double  fractionmass;
     a = 10.81*g/mole;
-    G4Element* elB = new G4Element(name="Boron",symbol="B" , z= 5., a);
+    G4Element* elB = new G4Element(name="Boron",symbol="B" , z= 5., a);    //adding Boron
+    a = 55.85*g/mole;
+    G4Element* elFe = new G4Element(name="Fe",symbol="Fe" , z= 26., a);          //adding Fe
+
 
     G4NistManager* manager = G4NistManager::Instance();
     manager->SetVerbose(1);
-    G4Material* mat = manager->FindOrBuildMaterial("G4_CONCRETE");
+    G4Material* mat = manager->FindOrBuildMaterial("G4_WATER");
 density = 2.4*g/cm3;
-G4Material* shape2_mat = new G4Material(name="Composite", density, ncomponents=2);
-shape2_mat->AddMaterial(mat, fractionmass=95.0*perCent);
-shape2_mat->AddElement(elB,  fractionmass=5.0*perCent);
+G4Material* shape2_mat = new G4Material(name="Composite", density, ncomponents=3);
+shape2_mat->AddMaterial(mat, fractionmass=70.0*perCent);
+shape2_mat->AddElement(elB,  fractionmass=15.0*perCent);
+shape2_mat->AddElement(elFe,  fractionmass=15.0*perCent);
 
 
-
-   //edit end */
- // G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_CONCRETE");//G4_CONCRETE
+  // edit end */
+ // G4Material* shape2_mat = nist->FindOrBuildMaterial("G4_CONCRETE");//G4_CONCRETE  G4_WATER
   G4ThreeVector pos2 = G4ThreeVector(0, 0, 0*m);
 
 

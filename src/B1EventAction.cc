@@ -52,6 +52,7 @@ B1EventAction::~B1EventAction()
 void B1EventAction::BeginOfEventAction(const G4Event*)
 {    
   fEdep = 0.;
+
  // fTrackLength =0;      //edit
 }
 
@@ -64,6 +65,7 @@ void B1EventAction::EndOfEventAction(const G4Event*)
  G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
 // Fill histograms
   analysisManager->FillH1(0, fEdep);
+    //analysisManager->FillH1(1, dose);
   //analysisManager->FillH1(1, fTrackLength);  // edit
 
 }
