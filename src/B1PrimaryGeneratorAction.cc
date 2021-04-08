@@ -107,16 +107,20 @@ B1PrimaryGeneratorAction::B1PrimaryGeneratorAction()
             G4double x0 = sinTheta*std::cos(phi),
            y0 = sinTheta*std::sin(phi),
            z0 = cosTheta;
+            fParticleGun->SetParticlePosition(G4ThreeVector(0., 0., 0.));
+            fParticleGun->SetParticleMomentumDirection(G4ThreeVector(x0,y0,z0));
 
-         /*
+         /*      // for particle gun source
             G4double size = -0.1;     // original 0.8
             G4double x0 = size * envSizeXY * (G4UniformRand() - 0.5); // removing (G4UniformRand()-0.5);
             G4double y0 = size * envSizeXY * (G4UniformRand() - 0.5);
             G4double z0 = -0.1 * envSizeZ;   //
+            fParticleGun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
+            fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
+
             */
 
-            fParticleGun->SetParticlePosition(G4ThreeVector(0., 0., 0.));
-            fParticleGun->SetParticleMomentumDirection(G4ThreeVector(x0,y0,z0));
+
             fParticleGun->GeneratePrimaryVertex(anEvent);
         }
 

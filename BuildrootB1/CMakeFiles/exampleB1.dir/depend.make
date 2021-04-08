@@ -138,10 +138,12 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HitFilterFactories.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HnInformation.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HnManager.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ICRU90StoppingData.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IonisParamElm.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IonisParamMat.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Isotope.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IsotopeVector.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LPhysicsFreeVector.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Log.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LogicalVolume.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LogicalVolume.icc
@@ -168,6 +170,9 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NavigationLogger.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Navigator.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Navigator.icc
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistElementBuilder.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistManager.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistMaterialBuilder.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Normal3D.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NormalNavigation.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NormalNavigation.icc
@@ -192,6 +197,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTable.icc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTableIterator.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicalVolumeModel.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsFreeVector.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsListHelper.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsListOrderingParameter.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsModelCatalog.hh
@@ -203,6 +209,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVectorType.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Plane3D.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Point3D.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Pow.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryParticle.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryTransformer.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryVertex.hh
@@ -236,6 +243,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Scene.icc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4SceneHandlerList.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4SceneList.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ScoringManager.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4SmartTrackStack.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4SmartVoxelHeader.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4SmartVoxelHeader.icc
@@ -245,6 +253,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4SmartVoxelProxy.icc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4StackManager.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4StackedTrack.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4StatDouble.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Step.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Step.icc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4StepPoint.hh
@@ -297,6 +306,8 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UImessenger.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UIparameter.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UItokenNum.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UnitsTable.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UnitsTable.icc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserSteppingAction.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserTrackingAction.hh
@@ -338,6 +349,8 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VRNtupleManager.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VSceneHandler.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VSceneHandler.icc
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VScoreWriter.hh
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VScoringMesh.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VSolid.hh
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VSolid.icc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4VStateDependent.hh
@@ -939,6 +952,8 @@ CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotro
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UOrb.hh
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4USphere.hh
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UTrd.hh
+CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UnitsTable.hh
+CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UnitsTable.icc
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserSteppingAction.hh
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserTrackingAction.hh
@@ -1794,10 +1809,12 @@ CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/gea
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HCofThisEvent.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HnInformation.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HnManager.hh
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ICRU90StoppingData.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IonisParamElm.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IonisParamMat.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Isotope.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IsotopeVector.hh
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LPhysicsFreeVector.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Log.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LogicalVolume.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LogicalVolume.icc
@@ -1820,6 +1837,9 @@ CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/gea
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NavigationLogger.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Navigator.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Navigator.icc
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistElementBuilder.hh
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistManager.hh
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistMaterialBuilder.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NormalNavigation.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NormalNavigation.icc
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4OrderedTable.hh
@@ -1837,6 +1857,7 @@ CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/gea
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTable.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTable.icc
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTableIterator.hh
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsFreeVector.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsModelCatalog.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsOrderedFreeVector.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsTable.hh
@@ -1844,6 +1865,7 @@ CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/gea
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVector.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVector.icc
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVectorType.hh
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Pow.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryParticle.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryTransformer.hh
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryVertex.hh
@@ -2194,10 +2216,12 @@ CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Buil
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4GeomSplitter.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4GlobalConfig.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4HCofThisEvent.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ICRU90StoppingData.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IonisParamElm.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IonisParamMat.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Isotope.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4IsotopeVector.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LPhysicsFreeVector.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Log.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LogicalVolume.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4LogicalVolume.icc
@@ -2218,6 +2242,9 @@ CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Buil
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NavigationLogger.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Navigator.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Navigator.icc
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistElementBuilder.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistManager.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NistMaterialBuilder.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NormalNavigation.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4NormalNavigation.icc
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4OrderedTable.hh
@@ -2232,6 +2259,7 @@ CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Buil
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTable.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTable.icc
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4ParticleTableIterator.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsFreeVector.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsModelCatalog.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsOrderedFreeVector.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsTable.hh
@@ -2239,6 +2267,7 @@ CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Buil
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVector.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVector.icc
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PhysicsVectorType.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4Pow.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryParticle.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryTransformer.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4PrimaryVertex.hh
@@ -2297,6 +2326,8 @@ CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Buil
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UImessenger.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UIparameter.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UItokenNum.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UnitsTable.hh
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UnitsTable.icc
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserEventAction.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anamika/Cyclotron/Build/geant4.10.06-install/include/Geant4/G4UserSteppingAction.hh

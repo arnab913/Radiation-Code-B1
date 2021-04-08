@@ -142,7 +142,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
     G4NistManager* manager = G4NistManager::Instance();
     manager->SetVerbose(1);
-    G4Material* mat = manager->FindOrBuildMaterial("G4_WATER");
+    G4Material* mat = manager->FindOrBuildMaterial("G4_CONCRETE");
 density = 2.4*g/cm3;
 G4Material* shape2_mat = new G4Material(name="Composite", density, ncomponents=3);
 shape2_mat->AddMaterial(mat, fractionmass=70.0*perCent);
@@ -159,7 +159,7 @@ shape2_mat->AddElement(elFe,  fractionmass=15.0*perCent);
   G4double shape2_dya = 10.0*m;
   G4double shape2_dz  = 10.0*m;
   G4Box *outerBox = new G4Box("Outer Box",shape2_dxa,shape2_dya,shape2_dz);
-G4Box *innerBox = new G4Box("Inner Box",(shape2_dxa-2.44*m),(shape2_dya-2.44*m),(shape2_dz-2.44*m));
+G4Box *innerBox = new G4Box("Inner Box",(shape2_dxa-4.88*m),(shape2_dya-4.88*m),(shape2_dz-4.88*m));
 G4SubtractionSolid *solidShape2 = new G4SubtractionSolid("Hollow Box",outerBox,innerBox);
 
 
