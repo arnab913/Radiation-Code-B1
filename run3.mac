@@ -7,8 +7,8 @@
 /score/mesh/nBin 50 50 50
 #
 #/score/quantity/nOfStep nOfStepGamma
-#/score/quantity/energyDeposit eDep 
-/score/quantity/doseDeposit dose 
+#/score/quantity/energyDeposit eDep
+/score/quantity/doseDeposit dose
 #/score/filter/particle gammaFilter gamma
 #
 /score/close
@@ -22,11 +22,11 @@
 #
 /score/list
 #
-/vis/disable
+# /vis/disable
 /gun/particle neutron
 /gun/energy 18.5 MeV
-/run/beamOn 100
-/vis/enable
+/run/beamOn 10000
+# /vis/enable
 #
 ########################################
 #

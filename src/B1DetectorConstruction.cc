@@ -178,12 +178,12 @@ G4SubtractionSolid *solidShape2 = new G4SubtractionSolid("Hollow Box",outerBox,i
   G4LogicalVolume* logicShape2 =                         
     new G4LogicalVolume(solidShape2,         //its solid
                         shape2_mat,          //its material
-                        "Concret");           //its name
+                        "Concrete");           //its name
                
   new G4PVPlacement(0,                       //no rotation
                     pos2,                    //at position
                     logicShape2,             //its logical volume
-                    "Concret",                //its name
+                    "Concrete",                //its name
                     logicEnv,                //its mother  volume
                     false,                   //no boolean operation
                     0,                       //copy number
