@@ -1,2 +1,4 @@
 run_project.sh
 /cmake-build-debug/*
+/BuildrootB1/*
+/.vscode/*
